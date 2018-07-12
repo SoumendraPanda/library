@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/libiter">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ITER CENTRAL LIBRARY"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="REGISTRAION NO"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:textColorHint="#000000"
+        android:gravity="center"
+        android:id="@+id/let1"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="PASSWORD"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:gravity="center"
+        android:id="@+id/let2"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:text="Login"
+        android:textColor="#000000"
+        android:background="@drawable/rounded_button"
+        android:id="@+id/login"/>
+
+</LinearLayout>
